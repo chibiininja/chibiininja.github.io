@@ -17,6 +17,27 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
+                <Router>
+                    <Routes>
+                        <Route
+                            exact
+                            path="/"
+                            element={<Home />}
+                        />
+                        <Route
+                            path="/about"
+                            element={<About />}
+                        />
+                        <Route
+                            path="/contactus"
+                            element={<ContactUs />}
+                        />
+                        <Route
+                            path="*"
+                            element={<Navigate to="/" />}
+                        />
+                    </Routes>
+                </Router>
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
@@ -30,27 +51,6 @@ function App() {
                     Learn React
                 </a>
             </header>
-            <Router>
-                <Routes>
-                    <Route
-                        exact
-                        path="/"
-                        element={<Home />}
-                    />
-                    <Route
-                        path="/about"
-                        element={<About />}
-                    />
-                    <Route
-                        path="/contactus"
-                        element={<ContactUs />}
-                    />
-                    <Route
-                        path="*"
-                        element={<Navigate to="/" />}
-                    />
-                </Routes>
-            </Router>
         </div>
     );
 }
