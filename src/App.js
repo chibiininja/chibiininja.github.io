@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './data/logo.svg';
 import "./App.css";
 
 // importing components from react-router-dom package
@@ -10,8 +10,9 @@ import {
 } from "react-router-dom";
  
 import Home from "./components/Home";
-import About from "./components/About";
-import ContactUs from "./components/ContactUs";
+import Projects from "./components/Projects";
+import Interests from "./components/Interests";
+import Recommendations from './components/Recommendations';
  
 function App() {
     return (
@@ -25,12 +26,16 @@ function App() {
                             element={<Home />}
                         />
                         <Route
-                            path="/about"
-                            element={<About />}
+                            path="/projects"
+                            element={<Projects />}
                         />
                         <Route
-                            path="/contactus"
-                            element={<ContactUs />}
+                            path="/interests"
+                            element={<Interests />}
+                        />
+                        <Route
+                            path="/recommendations"
+                            element={<Recommendations />}
                         />
                         <Route
                             path="*"
