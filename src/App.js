@@ -1,4 +1,3 @@
-import logo from './data/logo.svg';
 import "./App.css";
 
 // importing components from react-router-dom package
@@ -43,7 +42,6 @@ function App() {
                         />
                     </Routes>
                 </Router>
-                <img src={logo} className="App-logo" alt="logo" />
             </header>
         </div>
     );

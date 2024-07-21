@@ -10,27 +10,29 @@
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ddd;
 }
 
 /*react logo*/
-.App-logo {
+.App-logo, .image {
   height: 40vmin;
   pointer-events: none;
+  display: block;
+  margin: auto;
 }
 
 /*animation stuff*/
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 5s alternate-reverse;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
   to {
-    transform: rotate(3600deg);
+    transform: rotate(0deg);
   }
 }
