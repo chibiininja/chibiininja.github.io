@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae4029af.css",
-    "main.js": "/static/js/main.b9955f3f.js",
+    "main.css": "/static/css/main.5d9a57b4.css",
+    "main.js": "/static/js/main.7575c3d3.js",
+    "static/js/885.074c9e90.chunk.js": "/static/js/885.074c9e90.chunk.js",
     "static/js/453.e1d465a4.chunk.js": "/static/js/453.e1d465a4.chunk.js",
     "static/media/gradpic.jpg": "/static/media/gradpic.1b34839e43750048b6ad.jpg",
     "static/media/funnyduckpfp.gif": "/static/media/funnyduckpfp.ae2b03998e7b9ba41b4a.gif",
+    "static/media/quack1.mp3": "/static/media/quack1.5148b72781cf45246974.mp3",
+    "static/media/quack3.mp3": "/static/media/quack3.65847222c5aa2d289d25.mp3",
+    "static/media/quack2.mp3": "/static/media/quack2.3012faedea4ec6fd4f1c.mp3",
+    "static/media/quack4.mp3": "/static/media/quack4.0e6fdb7ee2c40a7c7255.mp3",
     "index.html": "/index.html",
-    "main.ae4029af.css.map": "/static/css/main.ae4029af.css.map",
-    "main.b9955f3f.js.map": "/static/js/main.b9955f3f.js.map",
+    "main.5d9a57b4.css.map": "/static/css/main.5d9a57b4.css.map",
+    "main.7575c3d3.js.map": "/static/js/main.7575c3d3.js.map",
+    "885.074c9e90.chunk.js.map": "/static/js/885.074c9e90.chunk.js.map",
     "453.e1d465a4.chunk.js.map": "/static/js/453.e1d465a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae4029af.css",
-    "static/js/main.b9955f3f.js"
+    "static/css/main.5d9a57b4.css",
+    "static/js/main.7575c3d3.js"
   ]
 }
