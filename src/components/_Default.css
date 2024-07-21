@@ -145,3 +145,54 @@
         color: black;
       }
 }
+
+/*images*/
+.Rotate, .image {
+    height: 40vmin;
+    pointer-events: auto;
+    display: block;
+    margin: auto;
+}
+  
+  /*animation stuff*/
+@media (prefers-reduced-motion: no-preference) {
+    .Rotate {
+      animation: Rotate-counterclock infinite 5s linear, Scale1 1 .2s alternate;
+    }
+}
+  
+@keyframes Scale1 {
+    from {
+        transform: scale(1);
+    }
+    to   {
+        transform: scale(0.95);
+    }
+}
+
+@keyframes Scale2 {
+    from {
+        transform: scale(1);
+    }
+    to   {
+        transform: scale(0.95);
+    }
+}
+
+@keyframes Rotate-counterclock {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+  
+@keyframes Rotate-clock {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+         transform: rotate(360deg);
+    }
+}

@@ -23,6 +23,7 @@ const Home = () => {
 
     const [index, setIndex] = useState(getRandomInt(descriptions.length));
     const [counterclockwise, setCounterclockwise] = useState(true);
+    const [interact, setInteract] = useState({animation: "Scale 1 .2s alternate"});
 
     const [playQuack1] = useSound(quack1SFX);
     const [playQuack2] = useSound(quack2SFX);
@@ -45,6 +46,7 @@ const Home = () => {
     }
     function handleClickImage() {
         setCounterclockwise(!counterclockwise);
+        setInteract({animation: "Scale initial .2s alternate"});
         quacksounds[getRandomInt(quacksounds.length)]();
     }
 
@@ -85,8 +87,8 @@ const Home = () => {
                         </p>
                         <img src={funnyduck} className="Rotate" alt="funnyduck" onClick={handleClickImage} 
                         style={
-                            counterclockwise ? { borderRadius: "50%", animationName: "Rotate-counterclock" }
-                            : { borderRadius: "50%", animationName: "Rotate-clock" }
+                            counterclockwise ? { borderRadius: "50%", animation: "Rotate-counterclock infinite 5s linear, Scale1 1 .2s alternate" }
+                            : { borderRadius: "50%", animation: "Rotate-clock infinite 5s linear, Scale2 1 .2s alternate" }
                         }/>
                         <a href="https://www.youtube.com/watch?v=HlYTls-UbUs&ab_channel=LouieZong" 
                         style={{ color: "#444444", textDecoration: "none", fontSize: "14px", display: "block", textAlign: "center" }}>
