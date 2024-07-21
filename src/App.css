@@ -14,25 +14,34 @@
 }
 
 /*react logo*/
-.App-logo, .image {
+.Rotate, .image {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: auto;
   display: block;
   margin: auto;
 }
 
 /*animation stuff*/
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 5s linear;
+  .Rotate {
+    animation: Rotate-counterclock infinite 5s linear;
   }
 }
 
-@keyframes App-logo-spin {
+@keyframes Rotate-counterclock {
   from {
     transform: rotate(360deg);
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+@keyframes Rotate-clock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

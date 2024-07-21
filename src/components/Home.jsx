@@ -1,7 +1,14 @@
 import React, {useState} from "react";
+import useSound from "use-sound";
+
 import NavBar from "./NavBar";
-import gradpic from '../data/gradpic.jpg';
-import funnyduck from '../data/funnyduckpfp.gif';
+
+import gradpic from '../data/images/gradpic.jpg';
+import funnyduck from '../data/images/funnyduckpfp.gif';
+import quack1SFX from '../data/sounds/quack1.mp3';
+import quack2SFX from '../data/sounds/quack2.mp3';
+import quack3SFX from '../data/sounds/quack3.mp3';
+import quack4SFX from '../data/sounds/quack4.mp3';
  
 import "./_Default.css";
 import Footer from "./Footer";
@@ -15,6 +22,19 @@ const Home = () => {
     ];
 
     const [index, setIndex] = useState(getRandomInt(descriptions.length));
+    const [counterclockwise, setCounterclockwise] = useState(true);
+
+    const [playQuack1] = useSound(quack1SFX);
+    const [playQuack2] = useSound(quack2SFX);
+    const [playQuack3] = useSound(quack3SFX);
+    const [playQuack4] = useSound(quack4SFX);
+
+    const quacksounds = [
+        playQuack1,
+        playQuack2,
+        playQuack3,
+        playQuack4
+    ];
 
     function getRandomInt(max) {
         return Math.floor(Math.random() * max);
@@ -22,6 +42,10 @@ const Home = () => {
 
     function handleClick() {
         setIndex((index + 1) % descriptions.length);
+    }
+    function handleClickImage() {
+        setCounterclockwise(!counterclockwise);
+        quacksounds[getRandomInt(quacksounds.length)]();
     }
 
     return (
@@ -51,7 +75,7 @@ const Home = () => {
                     <br />
                     <div className="Textbox" style={{ width: "40%" }}>
                         <h2 style={{ fontSize: "40px", textAlign: "center" }}>About Me</h2>
-                        <img src={gradpic} className="image" style={{ borderRadius: "5px" }}/>
+                        <img src={gradpic} className="image" alt="gradpic" style={{ borderRadius: "5px" }}/>
                         <p>
                             My name is Darren Inouye. I graduated from Santa Clara University with a B.S. in 
                             Computer Science and Engineering in 2024 and have been developing games since 
@@ -59,7 +83,11 @@ const Home = () => {
                             games with friends at my university's VR lab. I'm a programmer, game developer, and 
                             lover of goofy things and fun times!
                         </p>
-                        <img src={funnyduck} className="App-logo" alt="logo" style={{  borderRadius: "50%" }}/>
+                        <img src={funnyduck} className="Rotate" alt="funnyduck" onClick={handleClickImage} 
+                        style={
+                            counterclockwise ? { borderRadius: "50%", animationName: "Rotate-counterclock" }
+                            : { borderRadius: "50%", animationName: "Rotate-clock" }
+                        }/>
                         <a href="https://www.youtube.com/watch?v=HlYTls-UbUs&ab_channel=LouieZong" 
                         style={{ color: "#444444", textDecoration: "none", fontSize: "14px", display: "block", textAlign: "center" }}>
                             funny duck from louie zong's funky animals theme song
