@@ -23,7 +23,19 @@ const Home = () => {
 
     const [index, setIndex] = useState(getRandomInt(descriptions.length));
     const [counterclockwise, setCounterclockwise] = useState(true);
-    const [interact, setInteract] = useState({animation: "Scale 1 .2s alternate"});
+    const [interact, setInteract] = useState("ScaleUp 1 .2s linear forwards");
+
+    const rotateStyle = {
+        borderRadius: "50%",
+        animation: counterclockwise ? "Rotate-counterclock infinite 5s linear"
+        : "Rotate-clock infinite 5s linear"
+    }
+
+    const scaleStyle = {
+        display: "inline-block",
+        pointerEvents: "none",
+        animation: interact
+    }
 
     const [playQuack1] = useSound(quack1SFX);
     const [playQuack2] = useSound(quack2SFX);
@@ -44,9 +56,22 @@ const Home = () => {
     function handleClick() {
         setIndex((index + 1) % descriptions.length);
     }
-    function handleClickImage() {
+
+    function duckMouseEnter() {
+        setInteract("ScaleDown 1 .2s linear forwards");
+    }
+
+    function duckMouseLeave() {
+        setInteract("ScaleUp 1 .2s linear forwards");
+    }
+
+    function duckMouseDown() {
+        setInteract("ScaleDownClick 1 .2s linear forwards");
+    }
+
+    function duckMouseUp() {
+        setInteract("ScaleUpClick 1 .2s linear forwards");
         setCounterclockwise(!counterclockwise);
-        setInteract({animation: "Scale initial .2s alternate"});
         quacksounds[getRandomInt(quacksounds.length)]();
     }
 
@@ -85,11 +110,11 @@ const Home = () => {
                             games with friends at my university's VR lab. I'm a programmer, game developer, and 
                             lover of goofy things and fun times!
                         </p>
-                        <img src={funnyduck} className="Rotate" alt="funnyduck" onClick={handleClickImage} 
-                        style={
-                            counterclockwise ? { borderRadius: "50%", animation: "Rotate-counterclock infinite 5s linear, Scale1 1 .2s alternate" }
-                            : { borderRadius: "50%", animation: "Rotate-clock infinite 5s linear, Scale2 1 .2s alternate" }
-                        }/>
+                        <div style={scaleStyle}>
+                            <img src={funnyduck} className="Rotate" alt="funnyduck" 
+                            onMouseEnter={duckMouseEnter} onMouseLeave={duckMouseLeave} onMouseDown={duckMouseDown} onMouseUp={duckMouseUp}
+                            style={rotateStyle}/>
+                        </div>
                         <a href="https://www.youtube.com/watch?v=HlYTls-UbUs&ab_channel=LouieZong" 
                         style={{ color: "#444444", textDecoration: "none", fontSize: "14px", display: "block", textAlign: "center" }}>
                             funny duck from louie zong's funky animals theme song
