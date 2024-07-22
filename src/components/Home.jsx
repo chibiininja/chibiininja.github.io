@@ -34,6 +34,7 @@ const Home = () => {
     const scaleStyle = {
         display: "inline-block",
         pointerEvents: "none",
+        textAlign: "center",
         animation: interact
     }
 
@@ -89,10 +90,10 @@ const Home = () => {
                 <div className="Sidebar">
                     <ol>
                         <li>
-                            <a href="#header">Site Navigation</a>
+                            <a href="#/#header">Site Navigation</a>
                         </li>
                         <li>
-                            <a href="#about">About Me</a>
+                            <a href="#/#about">About Me</a>
                         </li>
                     </ol>
                 </div>
@@ -102,6 +103,8 @@ const Home = () => {
                     <br />
                     <div className="Textbox" style={{ width: "40%" }}>
                         <h2 style={{ fontSize: "40px", textAlign: "center" }}>About Me</h2>
+                        <div className="line" />
+                        <br />
                         <img src={gradpic} className="image" alt="gradpic" style={{ borderRadius: "5px" }}/>
                         <p>
                             My name is Darren Inouye. I graduated from Santa Clara University with a B.S. in 

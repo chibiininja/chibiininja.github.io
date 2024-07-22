@@ -115,7 +115,7 @@
 .Textbox {
     width: 40%;
     color: #ddd;
-    text-align: justify;
+    text-align: center;
     font-size: 20px;
     margin: auto;
     border-style: solid;
@@ -123,11 +123,23 @@
     border-width: 5px;
     border-radius: 5px;
     padding: 20px;
-    text-align: center;
+    position: relative;
+
+    & p {
+        text-align: justify;
+    }
+
+    & .line {
+        height: 1px;
+        border-bottom: 2px solid #444444;
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
 }
 
 .Lower {
-    background-color: #000000;
+    background-color: black;
     overflow: hidden;
     margin: 0;
     padding: 0;
