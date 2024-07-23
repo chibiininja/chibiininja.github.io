@@ -4,7 +4,13 @@ import useSound from "use-sound";
 import NavBar from "./NavBar";
 
 import gradpic from '../data/images/gradpic.jpg';
+import gdcpic from '../data/images/gdcpic.jpg';
+import saundercarrypic from '../data/images/saundercarrypic.jpg';
+import dragonpic from '../data/images/dragonpic.jpg';
+import psyduckstarepic from '../data/images/psyduckstarepic.jpg';
+import darrencrabpic from '../data/images/darrencrabpic.jpg';
 import funnyduck from '../data/images/funnyduckpfp.gif';
+
 import quack1SFX from '../data/sounds/quack1.mp3';
 import quack2SFX from '../data/sounds/quack2.mp3';
 import quack3SFX from '../data/sounds/quack3.mp3';
@@ -12,6 +18,7 @@ import quack4SFX from '../data/sounds/quack4.mp3';
  
 import "./_Default.css";
 import Footer from "./Footer";
+import Slideshow from "./Slideshow";
 
 const Home = () => {
     const descriptions = [
@@ -24,6 +31,15 @@ const Home = () => {
     const [index, setIndex] = useState(getRandomInt(descriptions.length));
     const [counterclockwise, setCounterclockwise] = useState(true);
     const [interact, setInteract] = useState("ScaleUp 1 .2s linear forwards");
+
+    const slides1 = [
+        <img src={gradpic} className="image" alt="gradpic" style={{ borderRadius: "5px", maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={gdcpic} className="image" alt="gdcpic" style={{ borderRadius: "5px", maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={saundercarrypic} className="image" alt="saundercarrypic" style={{ borderRadius: "5px", maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={dragonpic} className="image" alt="dragonpic" style={{ borderRadius: "5px", maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={psyduckstarepic} className="image" alt="psyduckstarepic" style={{ borderRadius: "5px", maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={darrencrabpic} className="image" alt="darrencrabpic" style={{ borderRadius: "5px", maxWidth: "100%", height: "40vmin", display: "block" }}/>
+    ];
 
     const rotateStyle = {
         borderRadius: "50%",
@@ -105,7 +121,7 @@ const Home = () => {
                         <h2 style={{ fontSize: "40px", textAlign: "center" }}>About Me</h2>
                         <div className="line" />
                         <br />
-                        <img src={gradpic} className="image" alt="gradpic" style={{ borderRadius: "5px" }}/>
+                        <Slideshow slides={slides1} manual={false} seconds={10}/>
                         <p>
                             My name is Darren Inouye. I graduated from Santa Clara University with a B.S. in 
                             Computer Science and Engineering in 2024 and have been developing games since 

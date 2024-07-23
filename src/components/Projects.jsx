@@ -12,7 +12,7 @@ const Projects = () => {
         <img src={sleepdeprivedpic} className="image" alt="sleepdeprivedimage" style={{ width: "100%", display: "block" }}/>,
         <iframe id="sleepdep" src="https://www.youtube.com/embed/RA7vakkuBxw?si=rDj41g5QUbTyyb81?autoplay=1&mute=1&enablejsapi=1" title="YouTube video player" 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
     ];
 
     return (
@@ -44,7 +44,7 @@ const Projects = () => {
                         <h2 style={{ fontSize: "40px", textAlign: "center" }}>Sleep Deprived<br />A VR Design Game/Experience</h2>
                         <div className="line" />
                         <br />
-                        <Slideshow slides={slides1}/>
+                        <Slideshow slides={slides1} manual={true}/>
                         <p>
                         A VR Unity game about the importance of work-life balance and getting sleep. <br />
                         Role: Solo Game Developer <br />
