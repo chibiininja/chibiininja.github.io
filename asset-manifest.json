@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.f49b9152.css",
-    "main.js": "/static/js/main.69fb942a.js",
+    "main.css": "/static/css/main.fce5e6b5.css",
+    "main.js": "/static/js/main.ad936c80.js",
     "static/js/885.074c9e90.chunk.js": "/static/js/885.074c9e90.chunk.js",
     "static/js/453.e1d465a4.chunk.js": "/static/js/453.e1d465a4.chunk.js",
     "static/media/sleepdeprivedimg.png": "/static/media/sleepdeprivedimg.f48ab4215b707eabe36a.png",
+    "static/media/gdcpic.jpg": "/static/media/gdcpic.09c28533160abcb06a65.jpg",
+    "static/media/dragonpic.jpg": "/static/media/dragonpic.250eb60d0b5895146ff3.jpg",
     "static/media/gradpic.jpg": "/static/media/gradpic.1b34839e43750048b6ad.jpg",
+    "static/media/psyduckstarepic.jpg": "/static/media/psyduckstarepic.259c28f657e960e042c9.jpg",
     "static/media/funnyduckpfp.gif": "/static/media/funnyduckpfp.ae2b03998e7b9ba41b4a.gif",
+    "static/media/darrencrabpic.jpg": "/static/media/darrencrabpic.47ddbc6e54f219eb926e.jpg",
+    "static/media/saundercarrypic.jpg": "/static/media/saundercarrypic.d99831d89eed15b4ed47.jpg",
     "static/media/quack1.mp3": "/static/media/quack1.5148b72781cf45246974.mp3",
     "static/media/quack3.mp3": "/static/media/quack3.65847222c5aa2d289d25.mp3",
     "static/media/quack2.mp3": "/static/media/quack2.3012faedea4ec6fd4f1c.mp3",
     "static/media/quack4.mp3": "/static/media/quack4.0e6fdb7ee2c40a7c7255.mp3",
     "index.html": "/index.html",
-    "main.f49b9152.css.map": "/static/css/main.f49b9152.css.map",
-    "main.69fb942a.js.map": "/static/js/main.69fb942a.js.map",
+    "main.fce5e6b5.css.map": "/static/css/main.fce5e6b5.css.map",
+    "main.ad936c80.js.map": "/static/js/main.ad936c80.js.map",
     "885.074c9e90.chunk.js.map": "/static/js/885.074c9e90.chunk.js.map",
     "453.e1d465a4.chunk.js.map": "/static/js/453.e1d465a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f49b9152.css",
-    "static/js/main.69fb942a.js"
+    "static/css/main.fce5e6b5.css",
+    "static/js/main.ad936c80.js"
   ]
 }
