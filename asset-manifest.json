@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fce5e6b5.css",
-    "main.js": "/static/js/main.ad936c80.js",
+    "main.css": "/static/css/main.9b35ac1c.css",
+    "main.js": "/static/js/main.b8311318.js",
     "static/js/885.074c9e90.chunk.js": "/static/js/885.074c9e90.chunk.js",
     "static/js/453.e1d465a4.chunk.js": "/static/js/453.e1d465a4.chunk.js",
     "static/media/sleepdeprivedimg.png": "/static/media/sleepdeprivedimg.f48ab4215b707eabe36a.png",
@@ -17,13 +17,13 @@
     "static/media/quack2.mp3": "/static/media/quack2.3012faedea4ec6fd4f1c.mp3",
     "static/media/quack4.mp3": "/static/media/quack4.0e6fdb7ee2c40a7c7255.mp3",
     "index.html": "/index.html",
-    "main.fce5e6b5.css.map": "/static/css/main.fce5e6b5.css.map",
-    "main.ad936c80.js.map": "/static/js/main.ad936c80.js.map",
+    "main.9b35ac1c.css.map": "/static/css/main.9b35ac1c.css.map",
+    "main.b8311318.js.map": "/static/js/main.b8311318.js.map",
     "885.074c9e90.chunk.js.map": "/static/js/885.074c9e90.chunk.js.map",
     "453.e1d465a4.chunk.js.map": "/static/js/453.e1d465a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fce5e6b5.css",
-    "static/js/main.ad936c80.js"
+    "static/css/main.9b35ac1c.css",
+    "static/js/main.b8311318.js"
   ]
 }
