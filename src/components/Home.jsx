@@ -19,6 +19,7 @@ import quack4SFX from '../data/sounds/quack4.mp3';
 import "./_Default.css";
 import Footer from "./Footer";
 import Slideshow from "./Slideshow";
+import { HashLink } from "react-router-hash-link";
 
 const Home = () => {
     const descriptions = [
@@ -95,10 +96,11 @@ const Home = () => {
     return (
         <div className="Default">
             <div className="Upper">
+                <div id="header" />
                 <NavBar />
-                <div className="Heading" id="header">
+                <div className="Heading">
                     <h1>Darren Inouye</h1>
-                    <h6 onClick={handleClick}>Aspiring Game Dev/Programmer</h6>
+                    <h6 onClick={handleClick}>Game Dev/Programmer</h6>
                 </div>
                 {descriptions[index]}
             </div>
@@ -106,10 +108,10 @@ const Home = () => {
                 <div className="Sidebar">
                     <ol>
                         <li>
-                            <a href="#/#header">Site Navigation</a>
+                            <HashLink to="/#header">Site Navigation</HashLink>
                         </li>
                         <li>
-                            <a href="#/#about">About Me</a>
+                            <HashLink to="/#about">About Me</HashLink>
                         </li>
                     </ol>
                 </div>
