@@ -3,12 +3,12 @@ import useSound from "use-sound";
 
 import NavBar from "./NavBar";
 
-import gradpic from '../data/images/gradpic.jpg';
-import gdcpic from '../data/images/gdcpic.jpg';
-import saundercarrypic from '../data/images/saundercarrypic.jpg';
-import dragonpic from '../data/images/dragonpic.jpg';
-import psyduckstarepic from '../data/images/psyduckstarepic.jpg';
-import darrencrabpic from '../data/images/darrencrabpic.jpg';
+import gradpic from '../data/images/homeslides/gradpic.jpg';
+import gdcpic from '../data/images/homeslides/gdcpic.jpg';
+import saundercarrypic from '../data/images/homeslides/saundercarrypic.jpg';
+import dragonpic from '../data/images/homeslides/dragonpic.jpg';
+import psyduckstarepic from '../data/images/homeslides/psyduckstarepic.jpg';
+import darrencrabpic from '../data/images/homeslides/darrencrabpic.jpg';
 import funnyduck from '../data/images/funnyduckpfp.gif';
 
 import quack1SFX from '../data/sounds/quack1.mp3';

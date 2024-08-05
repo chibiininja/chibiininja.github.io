@@ -1,10 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useId } from "react";
 
 import "./Slideshow.css";
 
 export default function Slideshow ({ slides, manual, seconds = 2 }) {
     const [slideIndex, setSlideIndex] = useState(1);
     const timerId = useRef(null);
+    const dotsId = useId();
 
     useEffect(() => {
         if (!manual) {
@@ -16,7 +17,7 @@ export default function Slideshow ({ slides, manual, seconds = 2 }) {
     }, [slideIndex])
 
     const dots = slides.map((slide, index) =>
-        <span className="dot" onClick={() => currentSlide(index + 1)}></span>
+        <span name={dotsId} className="dot" onClick={() => currentSlide(index + 1)}></span>
     );
 
     const sidebuttons = <>
@@ -46,14 +47,9 @@ export default function Slideshow ({ slides, manual, seconds = 2 }) {
         if (manual) {setDots(index)}
     }
 
-    function showAutomaticSlides() {
-        incrementSlides();
-        
-    }
-
     function setDots(index) {
         let i;
-        let dots = document.getElementsByClassName("dot");
+        let dots = document.getElementsByName(dotsId);
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" dotActive", "");
         }
