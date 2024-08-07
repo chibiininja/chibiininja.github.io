@@ -1,15 +1,38 @@
 import React from "react";
 import NavBar from "./NavBar";
 
+import shadowapprenticepic from "../data/images/shadowapprentice/shadowapprentice.png";
+import shadowapprenticeintro from "../data/images/shadowapprentice/shadowapprenticeintro.gif";
+import shadowapprenticegather from "../data/images/shadowapprentice/shadowapprenticegather.gif";
+import shadowapprenticeinteraction from "../data/images/shadowapprentice/shadowapprenticeinteraction.gif";
+import shadowapprenticedialogue from "../data/images/shadowapprentice/shadowapprenticedialogue.gif";
+
+import aberratepic from "../data/images/aberrate/aberrate.png";
+import aberrateintro from "../data/images/aberrate/aberrateintro.gif";
+import aberrategameplay from "../data/images/aberrate/aberrategameplay.gif";
+
+import doorsofopportunitypic from "../data/images/doorsofopportunity/doorsofopportunity.png";
+import doorsofopportunityintro from "../data/images/doorsofopportunity/doorsofopportunityintro.gif";
+import doorsofopportunitygameplay from "../data/images/doorsofopportunity/doorsofopportunitygameplay.gif";
+
+import scubaguy from "../data/images/submersion/scubaguy.png";
+import submersionintro from "../data/images/submersion/submersionintro.gif";
+import submersionquicktime from "../data/images/submersion/submersionquicktime.gif";
+
 import bowlinghelltitle from "../data/images/bowlinghell/bowlinghelltitle.png";
 import bowlinghellgameplaygif from "../data/images/bowlinghell/bowlinghellgameplay.gif";
 import bowlinghellendgif from "../data/images/bowlinghell/bowlinghellend.gif";
-import siniganggif from "../data/images/sinigang/sinigangslice.gif"
+
+import siniganggif from "../data/images/sinigang/sinigang.gif";
+import sinigangslicegif from "../data/images/sinigang/sinigangslice.gif"
+
 import caveofumbrapic from "../data/images/caveofumbra/caveofumbra.png";
 import caveofumbragif from "../data/images/caveofumbra/cavesofumbraintro.gif";
+
 import polaristitlepic from "../data/images/polaris/polaristitle.png";
 import polarisbenchpic from "../data/images/polaris/polarisbench.png";
 import polarisgif from "../data/images/polaris/polaris.gif";
+
 import sleepdeprivedpic from "../data/images/sleepdeprived/sleepdeprivedimg.png";
 
 import "./_Default.css";
@@ -22,16 +45,26 @@ const Projects = () => {
 
     ];
     const shadowapprenticeslides = [
-
+        <img src={shadowapprenticepic} className="image" alt="shadowapprenticepic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={shadowapprenticeintro} className="image" alt="shadowapprenticeintro" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={shadowapprenticegather} className="image" alt="shadowapprenticegather" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={shadowapprenticeinteraction} className="image" alt="shadowapprenticeinteraction" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={shadowapprenticedialogue} className="image" alt="shadowapprenticedialogue" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const aberrateslides = [
-
+        <img src={aberratepic} className="image" alt="aberratepic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={aberrateintro} className="image" alt="aberrateintro" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={aberrategameplay} className="image" alt="aberrategameplay" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const doorsofopportunityslides = [
-
+        <img src={doorsofopportunitypic} className="image" alt="doorsofopportunitypic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={doorsofopportunityintro} className="image" alt="doorsofopportunityintro" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={doorsofopportunitygameplay} className="image" alt="doorsofopportunitygameplay" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const submersionslides = [
-
+        <img src={scubaguy} className="image" alt="scubaguy" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={submersionintro} className="image" alt="submersionintro" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={submersionquicktime} className="image" alt="submersionquicktime" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const bowlinghellslides = [
         <img src={bowlinghelltitle} className="image" alt="bowlinghelltitle" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
@@ -39,8 +72,8 @@ const Projects = () => {
         <img src={bowlinghellendgif} className="image" alt="bowlinghellendgif" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const sinigangslides = [
-        <img src={caveofumbrapic} className="image" alt="caveofumbraimage" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
-        <img src={siniganggif} className="image" alt="siniganggif" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
+        <img src={siniganggif} className="image" alt="siniganggif" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={sinigangslicegif} className="image" alt="sinigangslicegif" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const caveofumbraslides = [
         <img src={caveofumbrapic} className="image" alt="caveofumbraimage" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
@@ -179,7 +212,7 @@ const Projects = () => {
                         <p>
                         A rhythm-based platformer about jumping to the beat. <br /><br />
                         Theme: "Aberration" <br />
-                        Role: Game Developer <br />
+                        Role: Solo Game Developer <br />
                         Duration: 2 weeks <br />
                         Technologies: Unity, LMMS <br />
                         Keywords: Post-processing, Shaders, HLSL, Audio Visualization, Portals, Music <br /><br />
@@ -204,6 +237,7 @@ const Projects = () => {
                         Technologies: Unity <br />
                         Keywords: Level Building, Puzzle System <br /><br />
                         - Created room structure and puzzle system <br />
+                        - Implemented interaction system and door scripts <br />
                         - Added UI elements to teach controls and provide quotes
                         </p>
                         <br />
