@@ -1,6 +1,11 @@
 import React from "react";
 import NavBar from "./NavBar";
 
+import linguavitaelooking from "../data/images/linguavitae/linguavitaelooking.gif";
+import linguavitaedialogue from "../data/images/linguavitae/linguavitaedialogue.gif";
+import linguavitaesign from "../data/images/linguavitae/linguavitaesign.gif";
+import linguavitaedialoguesystemx from "../data/images/linguavitae/linguavitaedialoguesystemx.gif";
+
 import shadowapprenticepic from "../data/images/shadowapprentice/shadowapprentice.png";
 import shadowapprenticeintro from "../data/images/shadowapprentice/shadowapprenticeintro.gif";
 import shadowapprenticegather from "../data/images/shadowapprentice/shadowapprenticegather.gif";
@@ -42,7 +47,10 @@ import { HashLink } from "react-router-hash-link";
 
 const Projects = () => {
     const linguavitaeslides = [
-
+        <img src={linguavitaelooking} className="image" alt="linguavitaelooking" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={linguavitaedialogue} className="image" alt="linguavitaedialogue" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={linguavitaesign} className="image" alt="linguavitaesign" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={linguavitaedialoguesystemx} className="image" alt="linguavitaedialoguesystemx" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const shadowapprenticeslides = [
         <img src={shadowapprenticepic} className="image" alt="shadowapprenticepic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
@@ -160,7 +168,9 @@ const Projects = () => {
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Work</h3>
                         <div className="line" />
                         <div id="Lingua Vitae"></div>
-                        <h3 style={{ fontSize: "36px", textAlign: "center" }}>Lingua Vitae<br />VR Language Learning Module</h3>
+                        <h3 style={{ fontSize: "36px", textAlign: "center" }}>
+                            <a href="https://www.scu.edu/imaginarium/research/lingua-vitae/">Lingua Vitae</a><br />
+                            VR Language Learning Module</h3>
                         <Slideshow slides={linguavitaeslides} manual={true}/>
                         <p>
                         A VR interactive fiction project that takes place in ancient Rome in which all dialogue is in conversational Latin. <br /><br />
