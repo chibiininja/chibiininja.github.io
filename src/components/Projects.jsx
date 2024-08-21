@@ -6,6 +6,11 @@ import linguavitaedialogue from "../data/images/linguavitae/linguavitaedialogue.
 import linguavitaesign from "../data/images/linguavitae/linguavitaesign.gif";
 import linguavitaedialoguesystemx from "../data/images/linguavitae/linguavitaedialoguesystemx.gif";
 
+import corporateclimberpic from "../data/images/corporateclimber/corporateclimber.png";
+import corporateclimberview from "../data/images/corporateclimber/corporateclimberview.gif";
+import corporateclimberclimb from "../data/images/corporateclimber/corporateclimberclimb.gif";
+import corporateclimberkick from "../data/images/corporateclimber/corporateclimberkick.gif";
+
 import shadowapprenticepic from "../data/images/shadowapprentice/shadowapprentice.png";
 import shadowapprenticeintro from "../data/images/shadowapprentice/shadowapprenticeintro.gif";
 import shadowapprenticegather from "../data/images/shadowapprentice/shadowapprenticegather.gif";
@@ -51,6 +56,12 @@ const Projects = () => {
         <img src={linguavitaedialogue} className="image" alt="linguavitaedialogue" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
         <img src={linguavitaesign} className="image" alt="linguavitaesign" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
         <img src={linguavitaedialoguesystemx} className="image" alt="linguavitaedialoguesystemx" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
+    ];
+    const corporateclimberslides = [
+        <img src={corporateclimberpic} className="image" alt="corporateclimberpic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={corporateclimberview} className="image" alt="corporateclimberview" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={corporateclimberclimb} className="image" alt="corporateclimberclimb" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={corporateclimberkick} className="image" alt="corporateclimberkick" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const shadowapprenticeslides = [
         <img src={shadowapprenticepic} className="image" alt="shadowapprenticepic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
@@ -126,6 +137,9 @@ const Projects = () => {
                             <HashLink to="/projects/#gamejams">Game Jams</HashLink>
                         </li>
                         <ul>
+                            <HashLink to="/projects/#corporateclimber">Corporate Climber</HashLink>
+                        </ul>
+                        <ul>
                             <HashLink to="/projects/#shadowapprentice">A Shadow Apprentice</HashLink>
                         </ul>
                         <ul>
@@ -188,6 +202,27 @@ const Projects = () => {
                     <div id="gamejams"></div>
                     <div className="Textbox" style={{ width: "40%" }}>
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Game Jams</h3>
+
+                        <div className="line" />
+                        <div id="corporateclimber"></div>
+                        <h3 style={{ fontSize: "36px", textAlign: "center" }}>
+                            <a href="https://chibiininja.itch.io/corporate-climber">Corporate Climber</a><br />
+                            <a href="https://itch.io/jam/gmtk-2024">GMTK Game Jam 2024</a></h3>
+                        <Slideshow slides={corporateclimberslides} manual={true}/>
+                        <p>
+                        A ragdoll-physics based platformer about climbing a corporate building and breaking windows. <br /><br />
+                        Theme: "Built to Scale" <br />
+                        Role: Gameplay Programmer and Developer <br />
+                        Duration: 4 days <br />
+                        Technologies: Godot, Blender <br />
+                        Keywords: Ragdoll, Physics, Joints, Level Design <br /><br />
+                        - Created ragdoll character controller using Physical Bone Simulation, Joints, and scripting <br />
+                        - Created climbable handholds, moving and sliding bars, ropes, and a launch pad using Joints and Animations <br />
+                        - Designed obstacle placement on main building <br />
+                        - Created tutorial area to teach player controls and provide context <br />
+                        - Fixed normals and merged extra vertices on 3D models using Blender
+                        </p>
+                        <br />
 
                         <div className="line" />
                         <div id="shadowapprentice"></div>
