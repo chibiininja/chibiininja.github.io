@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b35ac1c.css",
-    "main.js": "/static/js/main.a1369e7d.js",
+    "main.js": "/static/js/main.f57dd07e.js",
     "static/js/885.d1fc458b.chunk.js": "/static/js/885.d1fc458b.chunk.js",
     "static/js/453.2d24cd09.chunk.js": "/static/js/453.2d24cd09.chunk.js",
     "static/media/sinigangslice.gif": "/static/media/sinigangslice.defd4127c514bba0f835.gif",
@@ -15,9 +15,12 @@
     "static/media/submersionintro.gif": "/static/media/submersionintro.1cd5582063491deb0eb5.gif",
     "static/media/doorsofopportunityintro.gif": "/static/media/doorsofopportunityintro.74140437889baadac9ed.gif",
     "static/media/linguavitaedialogue.gif": "/static/media/linguavitaedialogue.9e29ff8a80a1e5ea673d.gif",
+    "static/media/corporateclimberclimb.gif": "/static/media/corporateclimberclimb.421a1d61d605c5f15307.gif",
+    "static/media/corporateclimberview.gif": "/static/media/corporateclimberview.b02e4d0c267f35a0bf6e.gif",
     "static/media/bowlinghellgameplay.gif": "/static/media/bowlinghellgameplay.ce1089769e5e7ef001a7.gif",
     "static/media/bowlinghellend.gif": "/static/media/bowlinghellend.f9694a408c1d20d404d8.gif",
     "static/media/polaristitle.png": "/static/media/polaristitle.22a9e1ca71b942afe501.png",
+    "static/media/corporateclimberkick.gif": "/static/media/corporateclimberkick.7586664b394e9ba9cf96.gif",
     "static/media/sinigang.gif": "/static/media/sinigang.23353530c7a533e48349.gif",
     "static/media/shadowapprenticedialogue.gif": "/static/media/shadowapprenticedialogue.1ae5b9bd6a9c7ebf3675.gif",
     "static/media/polaris.gif": "/static/media/polaris.933376d1197d46176271.gif",
@@ -27,6 +30,7 @@
     "static/media/shadowapprenticeintro.gif": "/static/media/shadowapprenticeintro.dc457f90e73893ba7471.gif",
     "static/media/shadowapprenticeinteraction.gif": "/static/media/shadowapprenticeinteraction.7b87d17db7cefac5bf32.gif",
     "static/media/gdcpic.jpg": "/static/media/gdcpic.09c28533160abcb06a65.jpg",
+    "static/media/corporateclimber.png": "/static/media/corporateclimber.fc85f4f0c0ef758ee901.png",
     "static/media/polarisbench.png": "/static/media/polarisbench.4dc52b2b4c4e26dd2e79.png",
     "static/media/dragonpic.jpg": "/static/media/dragonpic.250eb60d0b5895146ff3.jpg",
     "static/media/aberrate.png": "/static/media/aberrate.aa79b767bdf2faace3b2.png",
@@ -46,12 +50,12 @@
     "static/media/quack4.mp3": "/static/media/quack4.0e6fdb7ee2c40a7c7255.mp3",
     "index.html": "/index.html",
     "main.9b35ac1c.css.map": "/static/css/main.9b35ac1c.css.map",
-    "main.a1369e7d.js.map": "/static/js/main.a1369e7d.js.map",
+    "main.f57dd07e.js.map": "/static/js/main.f57dd07e.js.map",
     "885.d1fc458b.chunk.js.map": "/static/js/885.d1fc458b.chunk.js.map",
     "453.2d24cd09.chunk.js.map": "/static/js/453.2d24cd09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b35ac1c.css",
-    "static/js/main.a1369e7d.js"
+    "static/js/main.f57dd07e.js"
   ]
 }
