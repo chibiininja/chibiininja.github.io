@@ -23,7 +23,7 @@ import { HashLink } from "react-router-hash-link";
 
 const Home = () => {
     const descriptions = [
-        <p>"go make games!" -thor</p>,
+        <p>go make games!</p>,
         <a href="https://crouton.net">click me for a crouton</a>,
         <p>did you drink enough water today?</p>,
         <p>have a nice day :)</p>

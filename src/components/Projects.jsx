@@ -6,6 +6,16 @@ import linguavitaedialogue from "../data/images/linguavitae/linguavitaedialogue.
 import linguavitaesign from "../data/images/linguavitae/linguavitaesign.gif";
 import linguavitaedialoguesystemx from "../data/images/linguavitae/linguavitaedialoguesystemx.gif";
 
+import golfypic from "../data/images/golfy/golfyicon.ico"
+import golfygolfing from "../data/images/golfy/golfing.gif"
+import golfymovement from "../data/images/golfy/movement.gif"
+import golfyferris from "../data/images/golfy/ferris_wheel.gif"
+
+import barrelbreakthroughsquadpic from "../data/images/barrelbreakthroughsquad/barrelbreakthroughsquadcover.png";
+import barrelbreakthroughsquadscreeny1 from "../data/images/barrelbreakthroughsquad/barrelbreakthroughsquadscreeny1.gif";
+import barrelbreakthroughsquadscreeny2 from "../data/images/barrelbreakthroughsquad/barrelbreakthroughsquadscreeny2.gif";
+import barrelbreakthroughsquadscreeny3 from "../data/images/barrelbreakthroughsquad/barrelbreakthroughsquadscreeny3.gif";
+
 import corporateclimberpic from "../data/images/corporateclimber/corporateclimber.png";
 import corporateclimberview from "../data/images/corporateclimber/corporateclimberview.gif";
 import corporateclimberclimb from "../data/images/corporateclimber/corporateclimberclimb.gif";
@@ -56,6 +66,18 @@ const Projects = () => {
         <img src={linguavitaedialogue} className="image" alt="linguavitaedialogue" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
         <img src={linguavitaesign} className="image" alt="linguavitaesign" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
         <img src={linguavitaedialoguesystemx} className="image" alt="linguavitaedialoguesystemx" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
+    ];
+    const golfyslides = [
+        <img src={golfypic} className="image" alt="golfypic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={golfygolfing} className="image" alt="golfygolfing" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={golfymovement} className="image" alt="golfymovement" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={golfyferris} className="image" alt="golfyferris" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
+    ];
+    const barrelbreakthroughsquadslides = [
+        <img src={barrelbreakthroughsquadpic} className="image" alt="barrelbreakthroughsquadpic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={barrelbreakthroughsquadscreeny1} className="image" alt="barrelbreakthroughsquadscreeny1" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={barrelbreakthroughsquadscreeny2} className="image" alt="barrelbreakthroughsquadscreeny2" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <img src={barrelbreakthroughsquadscreeny3} className="image" alt="barrelbreakthroughsquadscreeny3" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
     ];
     const corporateclimberslides = [
         <img src={corporateclimberpic} className="image" alt="corporateclimberpic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
@@ -134,8 +156,17 @@ const Projects = () => {
                             <HashLink to="/projects/#linguavitae">Lingua Vitae</HashLink>
                         </ul>
                         <li>
+                            <HashLink to="/projects/#personal">Personal</HashLink>
+                        </li>
+                        <ul>
+                            <HashLink to="/projects/#golfy">Golfy's Adventure</HashLink>
+                        </ul>
+                        <li>
                             <HashLink to="/projects/#gamejams">Game Jams</HashLink>
                         </li>
+                        <ul>
+                            <HashLink to="/projects/#barrelbreakthroughsquad">Barrel Breakthrough Squad</HashLink>
+                        </ul>
                         <ul>
                             <HashLink to="/projects/#corporateclimber">Corporate Climber</HashLink>
                         </ul>
@@ -181,7 +212,7 @@ const Projects = () => {
                     <div className="Textbox" style={{ width: "40%" }}>
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Work</h3>
                         <div className="line" />
-                        <div id="Lingua Vitae"></div>
+                        <div id="linguavitae"></div>
                         <h3 style={{ fontSize: "36px", textAlign: "center" }}>
                             <a href="https://www.scu.edu/imaginarium/research/lingua-vitae/">Lingua Vitae</a><br />
                             VR Language Learning Module</h3>
@@ -199,9 +230,54 @@ const Projects = () => {
                     </div>
                     <br />
                     <br />
+                    <div id="personal"></div>
+                    <div className="Textbox" style={{ width: "40%" }}>
+                        <h3 style={{ fontSize: "48px", textAlign: "center" }}>Personal</h3>
+                        <div className="line" />
+                        <div id="golfy"></div>
+                        <h3 style={{ fontSize: "36px", textAlign: "center" }}>
+                            Golfy's Adventure
+                        </h3>
+                        <Slideshow slides={golfyslides} manual={true}/>
+                        <p>
+                        A golfball's adventure that slowly becomes less about golfing. <br /><br />
+                        Engine: Godot <br />
+                        Development Time: October - Current <br />
+                        Technologies: Godot, Blender
+                        <br /><br />
+                        - Creating low-poly 3D assets for 18 different environments using Blender <br />
+                        - Designing multiple character controllers and gameplay mechanics for each area <br />
+                        - Implemented save and load system
+                        </p>
+                    </div>
+                    <br />
+                    <br />
                     <div id="gamejams"></div>
                     <div className="Textbox" style={{ width: "40%" }}>
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Game Jams</h3>
+
+                        <div className="line" />
+                        <div id="barrelbreakthroughsquad"></div>
+                        <h3 style={{ fontSize: "36px", textAlign: "center" }}>
+                            <a href="https://chibiininja.itch.io/barrel-breakthrough-squad">Barrel Breakthrough Squad</a><br />
+                            <a href="https://itch.io/jam/pirate">Pirate Software - Game Jam 16</a></h3>
+                        <Slideshow slides={barrelbreakthroughsquadslides} manual={true}/>
+                        <p>
+                        A 2D speedrunning platformer about traversing through the barrels of newly manufactured guns. <br /><br />
+                        Theme: "You are the Weapon" <br />
+                        Role: Game Developer <br />
+                        Duration: 2 weeks <br />
+                        Technologies: Godot, Aseprite, Audacity, Reaper <br />
+                        Keywords: Character Movement, Level Design, Music, Sound Design, Pixel Art <br /><br />
+                        - Implemented character controller with variable jump height and dashing <br />
+                        - Composed looping music track using Reaper <br />
+                        - Created foley and other sound effects using Audacity <br />
+                        - Created art and animation assets using Aseprite <br />
+                        - Designed level with obstacles, one-way platforms, and flip-flop doors <br />
+                        - Created tutorial area to teach player controls <br />
+                        - Voiced-over intro cutscene
+                        </p>
+                        <br />
 
                         <div className="line" />
                         <div id="corporateclimber"></div>
@@ -228,14 +304,14 @@ const Projects = () => {
                         <div id="shadowapprentice"></div>
                         <h3 style={{ fontSize: "36px", textAlign: "center" }}>
                             <a href="https://chibiininja.itch.io/a-shadow-apprentice">A Shadow Apprentice</a><br />
-                            <a href="https://itch.io/jam/pirate">Pirate Software - Game Jam 15</a></h3>
+                            <a href="https://itch.io/jam/pirate15">Pirate Software - Game Jam 15</a></h3>
                         <Slideshow slides={shadowapprenticeslides} manual={true}/>
                         <p>
                         A point-and-click puzzle game about deciphering alchemical recipes, identifying ingredients, and interacting with customers. <br /><br />
                         Theme: "Shadows" and "Alchemy" <br />
                         Role: Game Developer <br />
                         Duration: 2 weeks <br />
-                        Technologies: Unity, LMMS, Aesprite, Audacity <br />
+                        Technologies: Unity, LMMS, Aseprite, Audacity <br />
                         Keywords: Inventory, UI, Dialogue, Music, Sound Design <br /><br />
                         - Planned a Game Design Doc for the first week <br />
                         - Created entire game using Unity UI <br />

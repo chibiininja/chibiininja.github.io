@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, useId } from "react";
 
 import "./Slideshow.css";
 
-export default function Slideshow ({ slides, manual, seconds = 2 }) {
+export default function Slideshow ({ slides, manual, seconds = 2, description = false }) {
     const [slideIndex, setSlideIndex] = useState(1);
     const timerId = useRef(null);
     const dotsId = useId();
@@ -61,6 +61,9 @@ export default function Slideshow ({ slides, manual, seconds = 2 }) {
             <div className="SlideshowContainer">
                 { slides[slideIndex - 1] }
                 { manual ? sidebuttons : null}
+            </div>
+            <div style={{ textAlign: "center" }}>
+                { description ? <p>{ slides[slideIndex - 1].alt }</p> : null }
             </div>
             <div style={{ textAlign: "center" }}>
                 { manual ? dots : null }
