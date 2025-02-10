@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "./NavBar";
 
+import gamesboard from "../data/images/games_board.png"
+
 import darrensingchorale from "../data/images/singing/darrensinginglachorale.avif"
 import darrensingsupertonic from "../data/images/singing/darrensingsupertonic.jpg"
 
@@ -12,9 +14,6 @@ import { HashLink } from "react-router-hash-link";
 import Slideshow from "./Slideshow";
 
 const Interests = () => {
-    const gameslides = [
-        
-    ];
     const singingslides = [
         <img src={darrensingchorale} className="image" alt="darrensingchorale" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
         <img src={darrensingsupertonic} className="image" alt="darrensingsupertonic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
@@ -96,6 +95,7 @@ const Interests = () => {
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Games</h3>
                         <div className="line" />
                         <br />
+                        <img src={gamesboard} className="image" alt="gamesboard" style={{ maxWidth: "100%", height: "55vmin", display: "block" }}/>
                         <p>
                         I have grown up with video games since I was a smol child playing on the couch with 
                         a GameBoy in hand. Since then, my Steam library has grown to uncontrollable 
@@ -166,115 +166,5 @@ const Interests = () => {
         </div>
     );
 };
-
-/*
-Games:
-    The Binding of Issac
-    Borderlands
-    Can of Wormholes
-    Chants of Sennaar
-    Chicory: A Colorful Tale
-    Crypt of the NecroDancer
-    Cult of the Lamb
-    Dave the Diver
-    Dead Cells
-    Death's Door
-    Deep Rock Galactic
-    Dicey Dungeons
-    Digimon
-    Don't Starve
-    Dragon Quest
-    Dredge
-    Dungeon Munchies
-    Dungreed
-    Enter the Gungeon
-    Evoland
-    FEZ
-    Gunfire Reborn
-    Hades
-    Hi-Fi Rush
-    Hyper Light Drifter
-    It Takes Two
-    Jusant
-    Kingsway
-    Knuckle Sandwich
-    Lethal Company
-    Little Witch in the Woods
-    Loop Hero
-    Luck be a Landlord
-    Minit
-    Monster Hunter
-    Monster Sanctuary
-    Moonring
-    Ni No Kuni
-    Nobody Saves the World
-    Nuclear Throne
-    Omori
-    Ori
-    Outer Wilds
-    Overcooked
-    Pacific Drive
-    PlateUp!
-    Portal
-    Potion Craft
-    Rabbit & Steel
-    Raft
-    Remnant
-    Revita
-    Rhythm Doctor
-    Risk of Rain
-    Roboquest
-    Rusty's Retirement
-    Sanctuary RPG: Black Edition
-    Shadows over Loathing
-    Skul: The Hero Slayer
-    Slasher's Keep
-    Slay the Spire
-    Spaceman Sparkles 2
-    Springblades
-    Stacklands
-    Starbound
-    Stardew Valley
-    SteamWorld Dig 2
-    Stone Shard
-    Super Meat Boy
-    Taiji
-    Teardown
-    Terraria
-    (the) Gnorp Apologue
-    Tiny Rogues
-    Tunic
-    UnderMine
-    Undertale
-    While True: Learn()
-    Wildfrost
-    The Witness
-
-    Celeste
-    A Short Hike
-    Pikuniku
-    Underhero
-    Hidden Folks
-    MidBoss
-
-    Osu
-    Cytus
-    Arcaea
-    Lanota
-    Deemo
-
-    Cave Story
-    Kirby
-    Mario & Luigi
-    Mario
-    Paper Mario
-    Animal Crossing
-    Pokemon
-    Pokemon Mystery Dungeon
-    Pokemon Ranger
-    The Legend of Zelda
-    Earthbound / Mother
-    The Legendary Starfy
-*/
 
 export default Interests;
