@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b35ac1c.css",
-    "main.js": "/static/js/main.7dcee3b8.js",
+    "main.js": "/static/js/main.d56e82e3.js",
     "static/js/885.d1fc458b.chunk.js": "/static/js/885.d1fc458b.chunk.js",
     "static/js/453.2d24cd09.chunk.js": "/static/js/453.2d24cd09.chunk.js",
     "static/media/sinigangslice.gif": "/static/media/sinigangslice.defd4127c514bba0f835.gif",
@@ -33,6 +33,7 @@
     "static/media/shadowapprenticegather.gif": "/static/media/shadowapprenticegather.e75b935b13984d21f8c5.gif",
     "static/media/barrelbreakthroughsquadscreeny3.gif": "/static/media/barrelbreakthroughsquadscreeny3.5eb302b178d1bd39da94.gif",
     "static/media/movement.gif": "/static/media/movement.e8a3228fc17da122e39a.gif",
+    "static/media/games_board.png": "/static/media/games_board.7eb9e63fb5cabfd4418d.png",
     "static/media/shadowapprenticeintro.gif": "/static/media/shadowapprenticeintro.dc457f90e73893ba7471.gif",
     "static/media/shadowapprenticeinteraction.gif": "/static/media/shadowapprenticeinteraction.7b87d17db7cefac5bf32.gif",
     "static/media/darrensingsupertonic.jpg": "/static/media/darrensingsupertonic.f6f3d6114268b3178799.jpg",
@@ -61,12 +62,12 @@
     "static/media/quack4.mp3": "/static/media/quack4.0e6fdb7ee2c40a7c7255.mp3",
     "index.html": "/index.html",
     "main.9b35ac1c.css.map": "/static/css/main.9b35ac1c.css.map",
-    "main.7dcee3b8.js.map": "/static/js/main.7dcee3b8.js.map",
+    "main.d56e82e3.js.map": "/static/js/main.d56e82e3.js.map",
     "885.d1fc458b.chunk.js.map": "/static/js/885.d1fc458b.chunk.js.map",
     "453.2d24cd09.chunk.js.map": "/static/js/453.2d24cd09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b35ac1c.css",
-    "static/js/main.7dcee3b8.js"
+    "static/js/main.d56e82e3.js"
   ]
 }
