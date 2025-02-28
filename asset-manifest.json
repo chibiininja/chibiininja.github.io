@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b35ac1c.css",
-    "main.js": "/static/js/main.adf0c8db.js",
+    "main.js": "/static/js/main.f275a238.js",
     "static/js/885.d1fc458b.chunk.js": "/static/js/885.d1fc458b.chunk.js",
     "static/js/453.2d24cd09.chunk.js": "/static/js/453.2d24cd09.chunk.js",
     "static/media/sinigangslice.gif": "/static/media/sinigangslice.defd4127c514bba0f835.gif",
@@ -17,6 +17,7 @@
     "static/media/submersionintro.gif": "/static/media/submersionintro.1cd5582063491deb0eb5.gif",
     "static/media/doorsofopportunityintro.gif": "/static/media/doorsofopportunityintro.74140437889baadac9ed.gif",
     "static/media/linguavitaedialogue.gif": "/static/media/linguavitaedialogue.9e29ff8a80a1e5ea673d.gif",
+    "static/media/dog.jpg": "/static/media/dog.61d9a8450730423eff2e.jpg",
     "static/media/corporateclimberclimb.gif": "/static/media/corporateclimberclimb.421a1d61d605c5f15307.gif",
     "static/media/corporateclimberview.gif": "/static/media/corporateclimberview.b02e4d0c267f35a0bf6e.gif",
     "static/media/bowlinghellgameplay.gif": "/static/media/bowlinghellgameplay.ce1089769e5e7ef001a7.gif",
@@ -76,12 +77,12 @@
     "static/media/quack4.mp3": "/static/media/quack4.0e6fdb7ee2c40a7c7255.mp3",
     "index.html": "/index.html",
     "main.9b35ac1c.css.map": "/static/css/main.9b35ac1c.css.map",
-    "main.adf0c8db.js.map": "/static/js/main.adf0c8db.js.map",
+    "main.f275a238.js.map": "/static/js/main.f275a238.js.map",
     "885.d1fc458b.chunk.js.map": "/static/js/885.d1fc458b.chunk.js.map",
     "453.2d24cd09.chunk.js.map": "/static/js/453.2d24cd09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b35ac1c.css",
-    "static/js/main.adf0c8db.js"
+    "static/js/main.f275a238.js"
   ]
 }
