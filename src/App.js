@@ -11,7 +11,7 @@ import {
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Interests from "./components/Interests";
-import Recommendations from './components/Recommendations';
+import Contacts from './components/Contacts';
  
 function App() {
     return (
@@ -33,8 +33,8 @@ function App() {
                             element={<Interests />}
                         />
                         <Route
-                            path="/recommendations"
-                            element={<Recommendations />}
+                            path="/contacts"
+                            element={<Contacts />}
                         />
                         <Route
                             path="*"

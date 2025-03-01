@@ -162,7 +162,7 @@ const Interests = () => {
                         <br />
                         <img src={gamesboard} className="image" alt="gamesboard" style={{ maxWidth: "100%", height: "100%", display: "block" }}/>
                         <p>
-                        I have grown up with video games since I was a smol child playing on the couch with 
+                        I have grown up with video games since I was a small child playing on the couch with 
                         a GameBoy in hand. Since then, my Steam library has grown to uncontrollable 
                         proportions.
                         <br /><br />

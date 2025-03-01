@@ -10,8 +10,9 @@ function NavBar() {
         <div className="NavBar" id="myTopnav">
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
+            <a href={`${process.env.PUBLIC_URL}/files/DarrenInouye_Resume.pdf`} without rel='noreferrer' target='_blank'>Resume</a>
             <Link to="/interests">Interests</Link>
-            <Link to="/recommendations">Recommendations</Link>
+            <Link to="/contacts">Contacts</Link>
         </div>
     );
 };

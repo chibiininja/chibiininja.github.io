@@ -263,7 +263,9 @@ const Projects = () => {
                             <a href="https://itch.io/jam/pirate">Pirate Software - Game Jam 16</a></h3>
                         <Slideshow slides={barrelbreakthroughsquadslides} manual={true}/>
                         <p>
-                        A 2D speedrunning platformer about traversing through the barrels of newly manufactured guns. <br /><br />
+                        A 2D speedrunning platformer about traversing through the barrels of newly manufactured guns. <br />
+                        Awarded Honorable Mention!
+                        <br /><br />
                         Theme: "You are the Weapon" <br />
                         Role: Game Developer <br />
                         Duration: 2 weeks <br />

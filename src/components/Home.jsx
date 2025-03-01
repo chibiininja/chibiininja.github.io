@@ -20,6 +20,7 @@ import "./_Default.css";
 import Footer from "./Footer";
 import Slideshow from "./Slideshow";
 import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     const descriptions = [
@@ -125,11 +126,28 @@ const Home = () => {
                         <br />
                         <Slideshow slides={slides1} manual={false} seconds={10}/>
                         <p>
-                            My name is Darren Inouye. I graduated from Santa Clara University with a B.S. in 
+                            <b>Hi! I'm Darren, thanks for visiting!</b>
+                        </p>
+                        <p>
+                            I graduated from Santa Clara University with a B.S. in 
                             Computer Science and Engineering in 2024 and have been developing games since 
-                            2022. I have participated in multiple game jams and have worked on many different 
-                            games with friends at my university's VR lab. I'm a programmer, game developer, and 
-                            lover of goofy things and fun times!
+                            2022. I'm a game developer, programmer, and lover of goofy things and fun times!
+                        </p>
+                        <p>
+                            I have participated in many game jams and have worked on/lead different 
+                            games and projects with friends at my university's VR lab. You can check out my work in the
+                            Projects tab above or click <Link to="/projects">here</Link>.
+                        </p>
+                        <p>
+                            In terms of games, I would place myself as a jack-of-all, have handled many different systems 
+                            including implementing dialogue, character controllers, audio, audio-visualization, cutscenes, 
+                            graphics and shaders, puzzles, animations, UI, etc.
+                        </p>
+                        <p>
+                            I am fluent in C, C#, C++, python, and react. I also have experience with java, 
+                            HLSL, the web-dev stack (html, css, js), and more.
+                            I also have predominantly worked in the Unity game engine, with some professional work
+                            done in Unreal Engine 5 and most recently dabbling in the Godot engine.
                         </p>
                         <div style={scaleStyle}>
                             <img src={funnyduck} className="Rotate" alt="funnyduck" 
