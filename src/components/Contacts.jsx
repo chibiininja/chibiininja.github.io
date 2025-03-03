@@ -13,7 +13,8 @@ const Contacts = () => {
             <div className="Upper">
                 <NavBar />
                 <div className="Heading">
-                    <h1>Contacts</h1>
+                    <h1>Darren Inouye</h1>
+                    <h6>Contacts</h6>
                 </div>
                 <p>if you wanna talk about work or cool stuff</p>
             </div>
@@ -33,24 +34,22 @@ const Contacts = () => {
                     <br />
                     <br />
                     <div className="Textbox" style={{ width: "40%" }}>
-                        <h2 style={{ fontSize: "40px", textAlign: "center" }}>Contacts</h2>
-                        <div className="line" />
+                        <img src={dog} className="image" alt="dog" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
                         <p style={{ color: "#444444", textDecoration: "none", fontSize: "14px", display: "block", textAlign: "center" }}>
                             my dog chibi!!!
                         </p>
-                        <img src={dog} className="image" alt="dog" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
                         <p style={{textAlign: "center"}}>
-                            <b>wanna work on something together?</b>
+                            <b>Wanna work on something together?</b>
                         </p>
                         <p style={{textAlign: "center"}}>
-                            <b>have questions?</b>
+                            <b>Have questions?</b>
                         </p>
                         <p style={{textAlign: "center"}}>
-                            <b>talk about cool stuff together?</b>
+                            <b>Talk about cool stuff together?</b>
                         </p>
                         <br />
                         <p>
-                            if you need to contact me for any reason, try these:
+                            If you need to contact me for any reason, try these:
                         </p>
                         <p>
                             - Email: darrensinouye@gmail.com<br />
