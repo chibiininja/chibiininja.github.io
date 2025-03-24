@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b35ac1c.css",
-    "main.js": "/static/js/main.e4b3eaf4.js",
+    "main.js": "/static/js/main.1e99019e.js",
     "static/js/885.d1fc458b.chunk.js": "/static/js/885.d1fc458b.chunk.js",
     "static/js/453.2d24cd09.chunk.js": "/static/js/453.2d24cd09.chunk.js",
     "static/media/sinigangslice.gif": "/static/media/sinigangslice.defd4127c514bba0f835.gif",
@@ -64,6 +64,7 @@
     "static/media/caveofumbra.png": "/static/media/caveofumbra.757f310b1f6367825cf3.png",
     "static/media/saundercarrypic.jpg": "/static/media/saundercarrypic.d99831d89eed15b4ed47.jpg",
     "static/media/0008-wooper.gif": "/static/media/0008-wooper.ac4d9a8e1c54bb7ce1b5.gif",
+    "static/media/wheelevator.png": "/static/media/wheelevator.d1fee0d0eed350463766.png",
     "static/media/barrelbreakthroughsquadcover.png": "/static/media/barrelbreakthroughsquadcover.7ae01dbb08458e720c3f.png",
     "static/media/doorsofopportunity.png": "/static/media/doorsofopportunity.202306459756ad5f2519.png",
     "static/media/shadowapprentice.png": "/static/media/shadowapprentice.03eebf7937ca9a030d3c.png",
@@ -77,12 +78,12 @@
     "static/media/quack4.mp3": "/static/media/quack4.0e6fdb7ee2c40a7c7255.mp3",
     "index.html": "/index.html",
     "main.9b35ac1c.css.map": "/static/css/main.9b35ac1c.css.map",
-    "main.e4b3eaf4.js.map": "/static/js/main.e4b3eaf4.js.map",
+    "main.1e99019e.js.map": "/static/js/main.1e99019e.js.map",
     "885.d1fc458b.chunk.js.map": "/static/js/885.d1fc458b.chunk.js.map",
     "453.2d24cd09.chunk.js.map": "/static/js/453.2d24cd09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b35ac1c.css",
-    "static/js/main.e4b3eaf4.js"
+    "static/js/main.1e99019e.js"
   ]
 }
