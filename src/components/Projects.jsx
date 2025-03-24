@@ -11,6 +11,8 @@ import golfygolfing from "../data/images/golfy/golfing.gif"
 import golfymovement from "../data/images/golfy/movement.gif"
 import golfyferris from "../data/images/golfy/ferris_wheel.gif"
 
+import wheelevatorpic from "../data/images/wheelevator/wheelevator.png"
+
 import barrelbreakthroughsquadpic from "../data/images/barrelbreakthroughsquad/barrelbreakthroughsquadcover.png";
 import barrelbreakthroughsquadscreeny1 from "../data/images/barrelbreakthroughsquad/barrelbreakthroughsquadscreeny1.gif";
 import barrelbreakthroughsquadscreeny2 from "../data/images/barrelbreakthroughsquad/barrelbreakthroughsquadscreeny2.gif";
@@ -72,6 +74,12 @@ const Projects = () => {
         <img src={golfygolfing} className="image" alt="golfygolfing" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
         <img src={golfymovement} className="image" alt="golfymovement" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
         <img src={golfyferris} className="image" alt="golfyferris" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
+    ];
+    const wheelevatorslides = [
+        <img src={wheelevatorpic} className="image" alt="wheelevatorimage" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
+        <iframe id="wheelevator" src="https://www.youtube.com/embed/nKYg2_6-VCg?si=RHtVTPaMyyjMPUHo?autoplay=1&mute=1&enablejsapi=1" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style={{ maxWidth: "100%", height: "40vmin" }}></iframe>
     ];
     const barrelbreakthroughsquadslides = [
         <img src={barrelbreakthroughsquadpic} className="image" alt="barrelbreakthroughsquadpic" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>,
@@ -165,6 +173,9 @@ const Projects = () => {
                             <HashLink to="/projects/#gamejams">Game Jams</HashLink>
                         </li>
                         <ul>
+                            <HashLink to="/projects/#wheelevator">Whe[el]evator</HashLink>
+                        </ul>
+                        <ul>
                             <HashLink to="/projects/#barrelbreakthroughsquad">Barrel Breakthrough Squad</HashLink>
                         </ul>
                         <ul>
@@ -255,6 +266,28 @@ const Projects = () => {
                     <div id="gamejams"></div>
                     <div className="Textbox" style={{ width: "40%" }}>
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Game Jams</h3>
+
+                        <div className="line" />
+                        <div id="wheelevator"></div>
+                        <h3 style={{ fontSize: "36px", textAlign: "center" }}>
+                            <a href="https://chibiininja.itch.io/wheelevator">Whe[el]evator</a><br />
+                            <a href="https://itch.io/jam/wheeljam">WHEELJAM 2025</a></h3>
+                        <Slideshow slides={wheelevatorslides} manual={true}/>
+                        <p>
+                        A 3D game about controlling an elevator with a wheel as a controller and things get weird and go wrong...
+                        <br /><br />
+                        Theme: "Elder Scrolls IV: Oblivion's Persuasion Wheel" <br />
+                        Role: Game Developer <br />
+                        Duration: 1 week <br />
+                        Technologies: Godot, Blender, Audacity <br />
+                        Keywords: Level Design, Lighting, Post-Processing, 3D Modeling <br /><br />
+                        - 3D modeled wheel controller, elevator, shaft using Blender <br />
+                        - Stretched and shrunk music track to make it spooky using Audacity <br />
+                        - Implemented NPCs with dialogue, speech noise generation, and tween animations <br />
+                        - Added interaction system and object pick-up using raycast <br />
+                        - Connected systems together using signals
+                        </p>
+                        <br />
 
                         <div className="line" />
                         <div id="barrelbreakthroughsquad"></div>
