@@ -33,7 +33,7 @@ const Contacts = () => {
                     <div id="contacts"></div>
                     <br />
                     <br />
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <img src={dog} className="image" alt="dog" style={{ maxWidth: "100%", height: "40vmin", display: "block" }}/>
                         <p style={{ color: "#444444", textDecoration: "none", fontSize: "14px", display: "block", textAlign: "center" }}>
                             my dog chibi!!!
@@ -54,7 +54,7 @@ const Contacts = () => {
                         <p>
                             - Email: darrensinouye@gmail.com<br />
                             - Discord: chibiininja<br />
-                            - Bluesky: chibiininja.itch.io<br />
+                            - <a href="https://bsky.app/profile/chibiininja.itch.io">Bluesky</a><br />
                             - <a href="https://www.linkedin.com/in/darren-inouye/">LinkedIn</a>
                         </p>
                     </div>

@@ -120,7 +120,7 @@ const Home = () => {
                     <div id="about"></div>
                     <br />
                     <br />
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h2 style={{ fontSize: "40px", textAlign: "center" }}>About Me</h2>
                         <div className="line" />
                         <br />

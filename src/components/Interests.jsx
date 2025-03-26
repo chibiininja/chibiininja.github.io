@@ -125,7 +125,7 @@ const Interests = () => {
                     <br />
                     <br />
                     <div id="creation"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Creation</h3>
                         <div className="line" />
                         <div id="pixelart"></div>
@@ -156,7 +156,7 @@ const Interests = () => {
                     <br />
                     <br />
                     <div id="games"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Games</h3>
                         <div className="line" />
                         <br />
@@ -175,13 +175,13 @@ const Interests = () => {
                     <br />
                     <br />
                     <div id="music"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Music</h3>
                         <div className="line" />
                         <br />
                         <img src={musicboard} className="image" alt="musicboard" style={{ maxWidth: "100%", height: "100%", display: "block" }}/>
                         <p>
-                        My taste in music has evolved drastically since middle school (yikes :/); I would say my 
+                        My taste in music has evolved drastically since middle school (yikes :/) I would say my 
                         current taste is mostly indie pop with an assortment of rhythm-game soundtracks, 
                         jpop, and game OSTs. (I don't actually have a good grasp of what sub-genres my liked 
                         songs are, so I'm just taking a guess)
@@ -190,7 +190,7 @@ const Interests = () => {
                     <br />
                     <br />
                     <div id="singing"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Singing</h3>
                         <div className="line" />
                         <br />
@@ -206,7 +206,7 @@ const Interests = () => {
                     <br />
                     <br />
                     <div id="guitar"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Guitar</h3>
                         <div className="line" />
                         <br />

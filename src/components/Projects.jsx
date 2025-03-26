@@ -220,7 +220,7 @@ const Projects = () => {
                     <br />
                     <br />
                     <div id="work"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Work</h3>
                         <div className="line" />
                         <div id="linguavitae"></div>
@@ -242,7 +242,7 @@ const Projects = () => {
                     <br />
                     <br />
                     <div id="personal"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Personal</h3>
                         <div className="line" />
                         <div id="golfy"></div>
@@ -264,7 +264,7 @@ const Projects = () => {
                     <br />
                     <br />
                     <div id="gamejams"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Game Jams</h3>
 
                         <div className="line" />
@@ -437,7 +437,7 @@ const Projects = () => {
                     <br />
                     <br />
                     <div id="greenhouse"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Greenhouse<br />Game Development Team</h3>
 
                         <div className="line" />
@@ -492,7 +492,7 @@ const Projects = () => {
                     <br />
                     <br />
                     <div id="classprojects"></div>
-                    <div className="Textbox" style={{ width: "40%" }}>
+                    <div className="Textbox">
                         <h3 style={{ fontSize: "48px", textAlign: "center" }}>Class Projects</h3>
                         <div className="line" />
                         <div id="sleepdeprived"></div>
