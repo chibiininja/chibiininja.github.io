@@ -54,8 +54,7 @@ const Contacts = () => {
                         <p>
                             - Email: darrensinouye@gmail.com<br />
                             - Discord: chibiininja<br />
-                            - <a href="https://bsky.app/profile/chibiininja.itch.io">Bluesky</a><br />
-                            - <a href="https://www.linkedin.com/in/darren-inouye/">LinkedIn</a>
+                            - vvvvv or check the links in the footer down below! vvvvv
                         </p>
                     </div>
                     <br />
